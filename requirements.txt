@@ -1,0 +1,7 @@
+flask
+langchain
+langchain-mistralai
+pydantic
+flask_cors
+python-dotenv
+gunicorn
