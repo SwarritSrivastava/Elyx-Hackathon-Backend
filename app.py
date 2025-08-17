@@ -178,7 +178,7 @@ test_reports = [
 ]
 
 app = Flask(__name__)
-CORS(app , resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app , resources={r"/*": {"origins": "https://elyxhackathonsv.netlify.app"}})
 @app.route("/generate", methods=["POST"])
 def generate():
     data = request.get_json(force=True)
